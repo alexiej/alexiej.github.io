@@ -1,0 +1,162 @@
+{
+    "results": [{
+        "columns": ["user", "entity"],
+        "data": [{
+            "graph": {
+                "nodes": [{
+                  "id": "0",
+                  "label": "Data Science",
+                  "color": "#d63031",
+                  "labels": ["User"],
+                  "size": 40,
+                  "icon": "./icons/data-science.svg",
+                  "info": "./md/data-science.md",
+                  "properties": {
+                      "userId": "eisman",
+                      "icon": "python"
+                  }
+              },{
+                    "id": "1",
+                    "label": "Python",
+                    "color": "#92c9ff",
+                    "labels": ["User"],
+                    "icon": "./icons/python.svg",
+                    "info": "./md/python.md",
+                    "properties": {
+                        "userId": "eisman",
+                        "icon": "python"
+                    }
+                },
+                {
+                  "id": "4",
+                  "label": "DataFrame",
+                  "color": "rgba(#82c9ff,0.3)",
+                  "labels": ["User"],
+                  "icon": "./icons/python.svg",
+                  "info": "./md/python.md",
+                  "properties": {
+                      "userId": "eisman",
+                      "icon": "python"
+                  }
+              },
+                {
+                  "id": "2",
+                  "label": "R",
+                  "color": "#dfe6e9",
+                  "labels": ["User"],
+                  "icon": "./icons/r.svg",
+                  "info": "./md/r.md",
+                  "properties": {
+                      "userId": "eisman",
+                      "icon": "python"
+                  }
+              },
+              {
+                "id": "3",
+                "label": "Languages",
+                "color": "#dfe6e9",
+                "labels": ["User"],
+                "icon": "",
+                "info": "",
+                "properties": {
+                    "userId": "eisman",
+                    "icon": "python"
+                }
+            },{
+              "id": "5",
+              "label": "Math",
+              "color": "#fab1a0",
+              "labels": ["User"],
+              "icon": "./icons/math.svg",
+              "info": "./md/r.md",
+              "properties": {
+                  "userId": "eisman",
+                  "icon": "python"
+              }
+          },
+          {
+            "id": "6",
+            "label": "System",
+            "color": "#a29bfe",
+            "labels": ["User"],
+            "icon": "./icons/computer.svg",
+            "info": "./md/r.md",
+            "properties": {
+                "userId": "eisman",
+                "icon": "python"
+            }
+        },
+        {
+          "id": "7",
+          "label": "ML Algorithms",
+          "color": "#ffeaa7",
+          "labels": ["User"],
+          "icon": "./icons/ml.svg",
+          "info": "./md/r.md",
+          "properties": {
+              "userId": "eisman",
+              "icon": "python"
+          }
+      }],
+                "relationships": [{
+                  "id": "0",
+                  "type": "Languages",
+                  "startNode": "0",
+                  "endNode": "3",
+                  "properties": {
+                      "from": 1473581532586
+                  }
+              },{
+                  "id": "1",
+                  "type": "R",
+                  "startNode": "3",
+                  "endNode": "2",
+                  "properties": {
+                      "from": 1473581532586
+                  }
+              },{
+                "id": "2",
+                "type": "Python",
+                "startNode": "3",
+                "endNode": "1",
+                "properties": {
+                    "from": 1473581532586
+                }
+            },{
+              "id": "3",
+              "type": "DataFrame",
+              "startNode": "1",
+              "endNode": "4",
+              "properties": {
+                  "from": 1473581532586
+              }
+          },{
+            "id": "4",
+            "type": "Math",
+            "startNode": "0",
+            "endNode": "5",
+            "properties": {
+                "from": 1473581532586
+            }
+        },{
+          "id": "5",
+          "type": "Software",
+          "startNode": "0",
+          "endNode": "6",
+          "properties": {
+              "from": 1473581532586
+          }
+      },{
+        "id": "6",
+        "type": "ML Algorithms",
+        "startNode": "0",
+        "endNode": "7",
+        "properties": {
+            "from": 1473581532586
+        }
+    }]
+            }
+        }]
+    }],
+    "errors": []
+}
