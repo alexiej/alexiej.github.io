@@ -6,4 +6,6 @@
 * Add Help function sections
 * Add Data / Source section 
 * Add fast.ai / Data section as informatin about ImageDataBunch
+* Add skin recognition/bear recognition page
+* Fix mistakes for calculations
 
