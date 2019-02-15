@@ -1,11 +1,12 @@
 # Deep Network
 
-* Add 3 basic examples of image recognition dog-cat examples, dog-cats breeds and skin melanoma recognition
-* Remove functions from the 0.7 version of fast.ai
-* Verify functions from the 1.0 in the Learner section
-* Add Help function sections
-* Add Data / Source section 
-* Add fast.ai / Data section as informatin about ImageDataBunch
-* Add skin recognition/bear recognition page
-* Fix mistakes for calculations
+* Correct information about learning rate and
+how to pick up learning rate()
+* Add information about export and load_learner()
+* Add information about fit1cycle
+* Add information about normalize()
+* Add information about Google Drive on Google Colab
+* Add Download Google Images
+* Add example for SGD from fast.ai
+
 
