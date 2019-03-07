@@ -1,12 +1,7 @@
-# AI Examples
-
-* Add AI Examples
-
 # Deep Network
 
-* Add information how to install on the Google Cloud
-* Add example of the IMDB / Text Classification
-* Add example of the Twitter / Text recognition
-* Add example of the Tabulardata
-* Add list of Activation functions
+* Add fastai, Collaborative Matrix example
+* Add fastai, Data basic functions
+* Add for Architecture explanation for weight decay, momentum, rmsprop and Adam Optimizer
+* Add for Pytorch information how to create dataset, dataloader, learn and use in fastai.
 
