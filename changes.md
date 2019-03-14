@@ -1,7 +1,9 @@
 # Deep Network
 
-* Add fastai, Collaborative Matrix example
-* Add fastai, Data basic functions
-* Add for Architecture explanation for weight decay, momentum, rmsprop and Adam Optimizer
-* Add for Pytorch information how to create dataset, dataloader, learn and use in fastai.
+* Add Architecture / Convolutional Network definition
+* Add Architecture / Batch Normalization  definition
+* Add Architecture / Dropout  definition
+* Add Learner / add_datepart definiton
+* Add show_heatmap() function
+
 
